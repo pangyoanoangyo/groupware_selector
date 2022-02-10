@@ -100,4 +100,6 @@ btn.grid(row=1,rowspan=2,column=3,padx=5,pady=5,sticky=N+E+W+S)
 btn.bind("<Button-1>",btn_cmd) # 마우스 왼쪽클릭 누르면 실행된다
 btn.bind('<Return>',btn_cmd) # 엔터키를 누르면 실행된다
 
-root.mainloop()
+root.mainloop() #Tkinter를 여기서 끝낸다
+
+
